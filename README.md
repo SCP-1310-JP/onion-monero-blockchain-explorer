@@ -1,6 +1,6 @@
-# Onion Monero Blockchain Explorer
+# Onion Scp1310jp1 Blockchain Explorer
 
-Currently available Monero blockchain explorers have several limitations which are of
+Currently available Scp1310jp1 blockchain explorers have several limitations which are of
 special importance to privacy-oriented users:
 
  - they use JavaScript,
@@ -8,13 +8,13 @@ special importance to privacy-oriented users:
  - track users activates through google analytics,
  - are closed sourced,
  - are not available as hidden services,
- - do not support Monero testnet nor stagenet networks,
+ - do not support Scp1310jp1 testnet nor stagenet networks,
  - have limited JSON API.
 
 
 In this example, these limitations are addressed by development of
-an Onion Monero Blockchain Explorer. The example not only shows how to use
-Monero C++ libraries, but also demonstrates how to use:
+an Onion Scp1310jp1 Blockchain Explorer. The example not only shows how to use
+Scp1310jp1 C++ libraries, but also demonstrates how to use:
 
  - [crow](https://github.com/ipkn/crow) - C++ micro web framework
  - [mstch](https://github.com/no1msd/mstch) - C++ {{mustache}} templates
@@ -25,43 +25,43 @@ Monero C++ libraries, but also demonstrates how to use:
 
 Tor users:
 
- - [http://dvwae436pd7nt4bc.onion](http://dvwae436pd7nt4bc.onion) (Front-end templates are [maintained by @suhz](https://github.com/suhz/onion-monero-blockchain-explorer/tree/moneroexplorer.com/src/templates)).
+ - [http://dvwae436pd7nt4bc.onion](http://dvwae436pd7nt4bc.onion) (Front-end templates are [maintained by @suhz](https://github.com/suhz/onion-scp1310jp1-blockchain-explorer/tree/scp1310jp1explorer.com/src/templates)).
 
 Clearnet versions:
  - [https://labor.serveo.net/](https://labor.serveo.net/) - temprorary link (slow), bleading edge version.
- - [https://xmrchain.net/](https://xmrchain.net/) - https enabled, most popular and very stable.
- - [https://MoneroExplorer.com/](https://moneroexplorer.com/) - nice looking one, https enabled.
- - [https://monerohash.com/explorer/](https://monerohash.com/explorer/) - nice looking one, https enabled.
- - [http://explore.MoneroWorld.com](http://explore.moneroworld.com) - same as the second one.
- - [https://moneroexplorer.pro/](https://moneroexplorer.pro/) - nice looking one, https enabled.
- - [http://monerochain.com/](http://monerochain.com/) - JSON API based, multiple nodes.   
- - [https://blox.minexmr.com/](https://blox.minexmr.com/) - - https enabled.
+ - [https://sinchain.net/](https://sinchain.net/) - https enabled, most popular and very stable.
+ - [https://Scp1310jp1Explorer.com/](https://scp1310jp1explorer.com/) - nice looking one, https enabled.
+ - [https://scp1310jp1hash.com/explorer/](https://scp1310jp1hash.com/explorer/) - nice looking one, https enabled.
+ - [http://explore.Scp1310jp1World.com](http://explore.scp1310jp1world.com) - same as the second one.
+ - [https://scp1310jp1explorer.pro/](https://scp1310jp1explorer.pro/) - nice looking one, https enabled.
+ - [http://scp1310jp1chain.com/](http://scp1310jp1chain.com/) - JSON API based, multiple nodes.   
+ - [https://blox.minesin.com/](https://blox.minesin.com/) - - https enabled.
 
 Testnet version:
 
  - [http://nimis.serveo.net/](http://nimis.serveo.net/) - bleeding edge version (down currently).
- - [https://testnet.xmrchain.com/](https://testnet.xmrchain.com/) - https enabled.
- - [https://explorer.monero-otc.com/](https://explorer.monero-otc.com/) - https enabled.
+ - [https://testnet.sinchain.com/](https://testnet.sinchain.com/) - https enabled.
+ - [https://explorer.scp1310jp1-otc.com/](https://explorer.scp1310jp1-otc.com/) - https enabled.
 
 Stagenet version:
 
  - [http://162.210.173.150:8083/](http://162.210.173.150:8083/) - recent version.
 
-i2p users (main Monero network):
+i2p users (main Scp1310jp1 network):
 
  - [http://7o4gezpkye6ekibhgpkg7v626ze4idsirapufzrefkdysa6zxhha.b32.i2p/](http://7o4gezpkye6ekibhgpkg7v626ze4idsirapufzrefkdysa6zxhha.b32.i2p/)
 
 Alternative block explorers:
 
-- [http://moneroblocks.info](http://moneroblocks.info/)
-- [https://monerobase.com](https://monerobase.com/)
-- [https://monerovision.com](https://monerovision.com)
-- [http://chainradar.com](http://chainradar.com/xmr/blocks)
+- [http://scp1310jp1blocks.info](http://scp1310jp1blocks.info/)
+- [https://scp1310jp1base.com](https://scp1310jp1base.com/)
+- [https://scp1310jp1vision.com](https://scp1310jp1vision.com)
+- [http://chainradar.com](http://chainradar.com/sin/blocks)
 
 
-## Onion Monero Blockchain Explorer features
+## Onion Scp1310jp1 Blockchain Explorer features
 
-The key features of the Onion Monero Blockchain Explorer are:
+The key features of the Onion Scp1310jp1 Blockchain Explorer are:
 
  - no cookies, no web analytics trackers, no images,
  - by default no JavaScript, but can be enabled for client side decoding and proving transactions,
@@ -70,12 +70,12 @@ The key features of the Onion Monero Blockchain Explorer are:
  - showing encrypted payments ID,
  - showing ring signatures,
  - showing transaction extra field,
- - showing public components of Monero addresses,
- - decoding which outputs and mixins belong to the given Monero address and viewkey,
- - can prove that you send Monero to someone,
+ - showing public components of Scp1310jp1 addresses,
+ - decoding which outputs and mixins belong to the given Scp1310jp1 address and viewkey,
+ - can prove that you send Scp1310jp1 to someone,
  - detailed information about ring members, such as, their age, timescale and their ring sizes,
  - showing number of amount output indices,
- - support Monero testnet and stagnet networks,
+ - support Scp1310jp1 testnet and stagnet networks,
  - tx checker and pusher for online pushing of transactions,
  - estimate possible spendings based on address and viewkey,
  - can provide total amount of all miner fees,
@@ -87,18 +87,18 @@ The key features of the Onion Monero Blockchain Explorer are:
 
 Current development branch:
 
- - https://github.com/moneroexamples/onion-monero-blockchain-explorer/tree/devel
+ - https://github.com/moneroexamples/onion-scp1310jp1-blockchain-explorer/tree/devel
 
 
 
 ## Compilation on Ubuntu 16.04/18.04
 
-##### Compile latest Monero development version
+##### Compile latest Scp1310jp1 development version
 
-Download and compile recent Monero into your home folder:
+Download and compile recent Scp1310jp1 into your home folder:
 
 ```bash
-# first install monero dependecines
+# first install scp1310jp1 dependecines
 sudo apt update
 
 sudo apt install git build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libcurl4-openssl-dev libgtest-dev libreadline-dev libzmq3-dev libsodium-dev libpcsclite-dev
@@ -106,11 +106,11 @@ sudo apt install git build-essential cmake libboost-all-dev miniupnpc libunbound
 # go to home folder
 cd ~
 
-git clone --recursive https://github.com/monero-project/monero
+git clone --recursive https://github.com/scp1310jp1-project/scp1310jp1
 
-cd monero/
+cd scp1310jp1/
 
-# checkout last monero version
+# checkout last scp1310jp1 version
 git checkout -b last_release v0.12.1.0
 
 make
@@ -118,18 +118,18 @@ make
 
 ##### Compile and run the explorer
 
-Once the Monero is compiles, the explorer can be downloaded and compiled
+Once the Scp1310jp1 is compiles, the explorer can be downloaded and compiled
 as follows:
 
 ```bash
-# go to home folder if still in ~/monero
+# go to home folder if still in ~/scp1310jp1
 cd ~
 
 # download the source code
-git clone https://github.com/moneroexamples/onion-monero-blockchain-explorer.git
+git clone https://github.com/moneroexamples/onion-scp1310jp1-blockchain-explorer.git
 
 # enter the downloaded sourced code folder
-cd onion-monero-blockchain-explorer
+cd onion-scp1310jp1-blockchain-explorer
 
 # make a build folder and enter it
 mkdir build && cd build
@@ -137,8 +137,8 @@ mkdir build && cd build
 # create the makefile
 cmake ..
 
-# altearnatively can use: cmake -DMONERO_DIR=/path/to/monero_folder ..
-# if monero is not in ~/monero
+# altearnatively can use: cmake -DSCP1310JP1_DIR=/path/to/scp1310jp1_folder ..
+# if scp1310jp1 is not in ~/scp1310jp1
 #
 # also can build with ASAN (sanitizers), for example
 # cmake -DSANITIZE_ADDRESS=On ..
@@ -150,22 +150,22 @@ make
 
 To run it:
 ```
-./xmrblocks
+./sinblocks
 ```
 
-By default it will look for blockchain in its default location i.e., `~/.bitmonero/lmdb`.
+By default it will look for blockchain in its default location i.e., `~/.bitscp1310jp1/lmdb`.
 You can use `-b` option if its in different location.
 
 For example:
 
 ```bash
-./xmrblocks -b /home/mwo/non-defult-monero-location/lmdb/
+./sinblocks -b /home/mwo/non-defult-scp1310jp1-location/lmdb/
 ```
 
 Example output:
 
 ```bash
-[mwo@arch onion-monero-blockchain-explorer]$ ./xmrblocks
+[mwo@arch onion-scp1310jp1-blockchain-explorer]$ ./sinblocks
 2016-May-28 10:04:49.160280 Blockchain initialized. last block: 1056761, d0.h0.m12.s47 time ago, current difficulty: 1517857750
 (2016-05-28 02:04:49) [INFO    ] Crow/0.1 server is running, local port 8081
 ```
@@ -175,7 +175,7 @@ Go to your browser: http://127.0.0.1:8081
 ## The explorer's command line options
 
 ```
-xmrblocks, Onion Monero Blockchain Explorer:
+sinblocks, Onion Scp1310jp1 Blockchain Explorer:
   -h [ --help ] [=arg(=1)] (=0)         produce help message
   -t [ --testnet ] [=arg(=1)] (=0)      use testnet blockchain
   -s [ --stagenet ] [=arg(=1)] (=0)     use stagenet blockchain
@@ -199,7 +199,7 @@ xmrblocks, Onion Monero Blockchain Explorer:
                                         enable users to have the index page on
                                         autorefresh
   --enable-emission-monitor [=arg(=1)] (=0)
-                                        enable Monero total emission monitoring
+                                        enable Scp1310jp1 total emission monitoring
                                         thread
   -p [ --port ] arg (=8081)             default explorer port
   --testnet-url arg                     you can specify testnet url, if you run
@@ -218,45 +218,45 @@ xmrblocks, Onion Monero Blockchain Explorer:
   --mempool-refresh-time arg (=5)       time, in seconds, for each refresh of
                                         mempool state
   -b [ --bc-path ] arg                  path to lmdb folder of the blockchain,
-                                        e.g., ~/.bitmonero/lmdb
+                                        e.g., ~/.bitscp1310jp1/lmdb
   --ssl-crt-file arg                    path to crt file for ssl (https)
                                         functionality
   --ssl-key-file arg                    path to key file for ssl (https)
                                         functionality
-  -d [ --deamon-url ] arg (=http:://127.0.0.1:18081)
-                                        Monero deamon url
+  -d [ --deamon-url ] arg (=http:://127.0.0.1:13102)
+                                        Scp1310jp1 deamon url
 ```
 
 Example usage, defined as bash aliases.
 
 ```bash
 # for mainnet explorer
-alias xmrblocksmainnet='~/onion-monero-blockchain-explorer/build/xmrblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
+alias sinblocksmainnet='~/onion-scp1310jp1-blockchain-explorer/build/sinblocks    --port 8081 --testnet-url "http://139.162.32.245:8082" --enable-pusher --enable-emission-monitor'
 
 # for testnet explorer
-alias xmrblockstestnet='~/onion-monero-blockchain-explorer/build/xmrblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
+alias sinblockstestnet='~/onion-scp1310jp1-blockchain-explorer/build/sinblocks -t --port 8082 --mainnet-url "http://139.162.32.245:8081" --enable-pusher --enable-emission-monitor'
 ```
 
 These are aliases similar to those used for http://139.162.32.245:8081/ and http://139.162.32.245:8082/, respectively.
 
-## Enable Monero emission
+## Enable Scp1310jp1 emission
 
-Obtaining current Monero emission amount is not straight forward. Thus, by default it is
+Obtaining current Scp1310jp1 emission amount is not straight forward. Thus, by default it is
 disabled. To enable it use `--enable-emission-monitor` flag, e.g.,
 
 
 ```bash
-xmrblocks --enable-emission-monitor
+sinblocks --enable-emission-monitor
 ```
 
 This flag will enable emission monitoring thread. When started, the thread
  will initially scan the entire blockchain, and calculate the cumulative emission based on each block.
 Since it is a separate thread, the explorer will work as usual during this time.
 Every 10000 blocks, the thread will save current emission in a file, by default,
- in `~/.bitmonero/lmdb/emission_amount.txt`. For testnet or stagenet networks,
- it is `~/.bitmonero/testnet/lmdb/emission_amount.txt` or `~/.bitmonero/stagenet/lmdb/emission_amount.txt`. This file is used so that we don't
+ in `~/.bitscp1310jp1/lmdb/emission_amount.txt`. For testnet or stagenet networks,
+ it is `~/.bitscp1310jp1/testnet/lmdb/emission_amount.txt` or `~/.bitscp1310jp1/stagenet/lmdb/emission_amount.txt`. This file is used so that we don't
  need to rescan entire blockchain whenever the explorer is restarted. When the
- explorer restarts, the thread will first check if `~/.bitmonero/lmdb/emission_amount.txt`
+ explorer restarts, the thread will first check if `~/.bitscp1310jp1/lmdb/emission_amount.txt`
  is present, read its values, and continue from there if possible. Subsequently, only the initial
  use of the tread is time consuming. Once the thread scans the entire blockchain, it updates
  the emission amount using new blocks as they come. Since the explorer writes this file, there can
@@ -270,10 +270,10 @@ Every 10000 blocks, the thread will save current emission in a file, by default,
  displayed on the front page, e.g., :
 
 ```
-Monero emission (fees) is 14485540.430 (52545.373) as of 1313448 block
+Scp1310jp1 emission (fees) is 14485540.430 (52545.373) as of 1313448 block
 ```
 
-The values given, can be checked using Monero daemon's  `print_coinbase_tx_sum` command.
+The values given, can be checked using Scp1310jp1 daemon's  `print_coinbase_tx_sum` command.
 For example, for the above example: `print_coinbase_tx_sum 0 1313449`.
 
 To disable the monitor, simply restart the explorer without `--enable-emission-monitor` flag.
@@ -284,7 +284,7 @@ By default, decoding and proving tx's outputs are done on the server side. To do
 (private view and tx keys are not send to the server) JavaScript-based decoding can be enabled:
 
 ```
-xmrblocks --enable-js
+sinblocks --enable-js
 ```
 
 ## Enable SSL (https)
@@ -300,10 +300,10 @@ openssl req -new -key server.key -out server.csr
 openssl x509 -req -days 3650 -in server.csr -signkey server.key -out server.crt
 ```
 
-Having the `crt` and `key` files, run `xmrblocks` in the following way:
+Having the `crt` and `key` files, run `sinblocks` in the following way:
 
 ```bash
-./xmrblocks --ssl-crt-file=/tmp/server.crt --ssl-key-file=/tmp/server.key
+./sinblocks --ssl-crt-file=/tmp/server.crt --ssl-key-file=/tmp/server.key
 ```
 
 Note: Because we generated our own certificate, modern browsers will complain
@@ -316,7 +316,7 @@ The explorer has JSON api. For the API, it uses conventions defined by [JSend](h
 By default the api is disabled. To enable it, use `--enable-json-api` flag, e.g.,
 
 ```
-./xmrblocks --enable-json-api
+./sinblocks --enable-json-api
 ```
 
 #### api/transaction/<tx_hash>
@@ -371,8 +371,8 @@ Partial results shown:
     "tx_hash": "6093260dbe79fd6277694d14789dc8718f1bd54457df8bab338c2efa3bb0f03d",
     "tx_size": 13323,
     "tx_version": 2,
-    "xmr_inputs": 0,
-    "xmr_outputs": 0
+    "sin_inputs": 0,
+    "sin_outputs": 0
   },
   "status": "success"
 }
@@ -470,8 +470,8 @@ Partial results shown:
         "tx_hash": "3ff71b65bec34c9261e01a856e6a03594cf0472acf6b77db3f17ebd18eaa30bf",
         "tx_size": 95,
         "tx_version": 2,
-        "xmr_inputs": 0,
-        "xmr_outputs": 8025365394426
+        "sin_inputs": 0,
+        "sin_outputs": 8025365394426
       }
     ]
   },
@@ -509,8 +509,8 @@ Partial results shown:
         "tx_hash": "9f3374f8ac67febaab153eab297937a3d0d2c706601e496bf5028146da0c9aef",
         "tx_size": 13291,
         "tx_version": 2,
-        "xmr_inputs": 0,
-        "xmr_outputs": 0
+        "sin_inputs": 0,
+        "sin_outputs": 0
       }
     ],
     "txs_no": 7
@@ -562,8 +562,8 @@ Partial results shown:
         "tx_hash": "479ba432f5c88736b438dd4446a11a13046a752d469f7828151f5c5b86be4e9a",
         "tx_size": 95,
         "tx_version": 2,
-        "xmr_inputs": 0,
-        "xmr_outputs": 7992697599717
+        "sin_inputs": 0,
+        "sin_outputs": 7992697599717
       }
     ]
   },
@@ -582,7 +582,7 @@ For this, we use recipient's address and our tx private key as a viewkey value,
 Checking outputs:
 
 ```bash
-# we use here official Monero project's donation address as an example
+# we use here official Scp1310jp1 project's donation address as an example
 curl  -w "\n" -X GET "http://127.0.0.1:8081/api/outputs?txhash=17049bc5f2d9fbca1ce8dae443bbbbed2fc02f1ee003ffdd0571996905faa831&address=44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A&viewkey=f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501&txprove=0"
 ```
 
@@ -614,7 +614,7 @@ curl  -w "\n" -X GET "http://127.0.0.1:8081/api/outputs?txhash=17049bc5f2d9fbca1
 
 Proving transfer:
 
-We use recipient's address (i.e. not our address from which we sent xmr to recipient).
+We use recipient's address (i.e. not our address from which we sent sin to recipient).
 For the viewkey, we use `tx_private_key` (although the GET variable is still called `viewkey`) that we obtained by sending this txs.
 
 ```bash
@@ -769,10 +769,10 @@ curl  -w "\n" -X GET "http://127.0.0.1:8081/api/version"
   "data": {
     "api": 65536,
     "blockchain_height": 1357031,
-    "git_branch_name": "update_to_current_monero",
+    "git_branch_name": "update_to_current_scp1310jp1",
     "last_git_commit_date": "2017-07-25",
     "last_git_commit_hash": "a549f25",
-    "monero_version_full": "0.10.3.1-ab594cfe"
+    "scp1310jp1_version_full": "0.10.3.1-ab594cfe"
   },
   "status": "success"
 }
@@ -789,7 +789,7 @@ var api_minor = response.data.api & 0xffff;
 
 #### api/rawblock/<block_number|block_hash>
 
-Return raw json block data, as represented in Monero.
+Return raw json block data, as represented in Scp1310jp1.
 
 ```bash
 curl  -w "\n" -X GET "http://139.162.32.245:8081/api/rawblock/1293257"
@@ -799,7 +799,7 @@ Example result not shown.
 
 #### api/rawtransaction/<tx_hash>
 
-Return raw json tx data, as represented in Monero.
+Return raw json tx data, as represented in Scp1310jp1.
 
 ```bash
 curl  -w "\n" -X GET "http://139.162.32.245:8081/api/rawtransaction/6093260dbe79fd6277694d14789dc8718f1bd54457df8bab338c2efa3bb0f03d"
@@ -807,7 +807,7 @@ curl  -w "\n" -X GET "http://139.162.32.245:8081/api/rawtransaction/6093260dbe79
 
 Example result not shown.
 
-## Other monero examples
+## Other scp1310jp1 examples
 
 Other examples can be found on  [github](https://github.com/moneroexamples?tab=repositories).
 Please know that some of the examples/repositories are not

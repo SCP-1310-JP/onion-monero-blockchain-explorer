@@ -2,15 +2,15 @@
 // Created by mwo on 5/11/15.
 //
 
-#ifndef XMREG01_MICROCORE_H
-#define XMREG01_MICROCORE_H
+#ifndef SINEG01_MICROCORE_H
+#define SINEG01_MICROCORE_H
 
 #include <iostream>
 
-#include "monero_headers.h"
+#include "scp1310jp1_headers.h"
 #include "tools.h"
 
-namespace xmreg
+namespace sineg
 {
     using namespace cryptonote;
     using namespace crypto;
@@ -90,4 +90,4 @@ namespace xmreg
 
 
 
-#endif //XMREG01_MICROCORE_H
+#endif //SINEG01_MICROCORE_H

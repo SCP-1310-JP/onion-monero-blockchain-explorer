@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, MyMonero.com
+// Copyright (c) 2014-2017, MyScp1310jp1.com
 // 
 // All rights reserved.
 // 
@@ -2194,8 +2194,8 @@ var cnUtil = (function(initConfig) {
 
 
     //decode amount and mask and check against commitment
-    // from https://xmr.llcoins.net/js/site.js
-    // from https://xmr.llcoins.net/js/site.js
+    // from https://sin.llcoins.net/js/site.js
+    // from https://sin.llcoins.net/js/site.js
     this.decodeRct = function(rv, i, der){
         var key = derivation_to_scalar(der, i);
         var ecdh = decode_rct_ecdh(rv.ecdhInfo[i], key);

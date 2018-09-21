@@ -2,8 +2,8 @@
 // Created by mwo on 28/05/17.
 //
 
-#ifndef XMRBLOCKS_MEMPOOLSTATUS_H
-#define XMRBLOCKS_MEMPOOLSTATUS_H
+#ifndef SINBLOCKS_MEMPOOLSTATUS_H
+#define SINBLOCKS_MEMPOOLSTATUS_H
 
 
 #include "MicroCore.h"
@@ -16,7 +16,7 @@
 #include <mutex>
 #include <atomic>
 
-namespace xmreg
+namespace sineg
 {
 
 struct MempoolStatus
@@ -39,8 +39,8 @@ struct MempoolStatus
 
         string fee_str;
         string payed_for_kB_str;
-        string xmr_inputs_str;
-        string xmr_outputs_str;
+        string sin_inputs_str;
+        string sin_outputs_str;
         string timestamp_str;
         string txsize;
 
@@ -161,4 +161,4 @@ struct MempoolStatus
 };
 
 }
-#endif //XMRBLOCKS_MEMPOOLSTATUS_H
+#endif //SINBLOCKS_MEMPOOLSTATUS_H

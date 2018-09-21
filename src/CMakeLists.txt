@@ -5,7 +5,7 @@ project(myxrm)
 set(SOURCE_HEADERS
         MicroCore.h
 		tools.h
-		monero_headers.h
+		scp1310jp1_headers.h
 		CurrentBlockchainStatus.h)
 
 set(SOURCE_FILES
